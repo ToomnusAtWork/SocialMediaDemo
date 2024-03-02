@@ -1,63 +1,91 @@
+import logo from "../../assets/graphic/social_logo.png";
 
 const Footer = () => {
     return (
-        <footer className="bg-white dark:bg-gray-900">
-    <div className="container px-6 py-12 mx-auto">
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
-            <div className="sm:col-span-2">
-                <h1 className="max-w-lg text-xl font-semibold tracking-tight text-gray-800 xl:text-2xl dark:text-white">Subscribe our newsletter to get update.</h1>
-
-                <div className="flex flex-col mx-auto mt-6 space-y-3 md:space-y-0 md:flex-row">
-                    <input id="email" type="text" className="px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300" placeholder="Email Address"/>
-            
-                    <button className="w-full px-6 py-2.5 text-sm font-medium tracking-wider text-white transition-colors duration-300 transform md:w-auto md:mx-4 focus:outline-none bg-gray-800 rounded-lg hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80">
-                        Subscribe
-                    </button>
-                </div>
-            </div>
-
-            <div>
-                <p className="font-semibold text-gray-800 dark:text-white">Quick Link</p>
-
-                <div className="flex flex-col items-start mt-5 space-y-2">
-                    <a href="#" className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Home</a>
-                    <a href="#" className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Who We Are</a>
-                    <a href="#" className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Our Philosophy</a>
-                </div>
-            </div>
-
-            <div>
-                <p className="font-semibold text-gray-800 dark:text-white">Industries</p>
-
-                <div className="flex flex-col items-start mt-5 space-y-2">
-                    <a href="#" className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Retail & E-Commerce</a>
-                    <a href="#" className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Information Technology</a>
-                    <a href="#" className="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500">Finance & Insurance</a>
-                </div>
-            </div>
-        </div>
+        <footer className="bg-white" aria-labelledby="footer-heading">
+  <h2 id="footer-heading" className="sr-only">Footer</h2>
+  <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
+    <div className="xl:grid xl:grid-cols-3 xl:gap-8">
+      <div className="space-y-8">
+        <img className="h-20" src="https://aaah0mnbncqtinas.public.blob.vercel-storage.com/FX5ATkass4-no-background-VmcZHSX7xE4ng29ATNphGUdb388fxH.png" alt="Company name" />
+        <p className="text-sm leading-6 text-gray-600">Knowing your teammates as people rather than as job roles fosters.</p>
+        <div className="flex space-x-6">
+          
+          <a href="#" className="text-gray-400 hover:text-gray-500">
+            <span className="sr-only">GitHub</span>
+            <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" />
+            </svg>
+          </a>
         
-        <hr className="my-6 border-gray-200 md:my-8 dark:border-gray-700"/>
-        
-        <div className="flex items-center justify-between">
-            <a href="#">
-                <img className="w-auto h-7" src="https://merakiui.com/images/full-logo.svg" alt=""/>
-            </a>
-            
-            <div className="flex -mx-2">
-                <a href="#" className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400" aria-label="Github">
-                    <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M12.026 2C7.13295 1.99937 2.96183 5.54799 2.17842 10.3779C1.395 15.2079 4.23061 19.893 8.87302 21.439C9.37302 21.529 9.55202 21.222 9.55202 20.958C9.55202 20.721 9.54402 20.093 9.54102 19.258C6.76602 19.858 6.18002 17.92 6.18002 17.92C5.99733 17.317 5.60459 16.7993 5.07302 16.461C4.17302 15.842 5.14202 15.856 5.14202 15.856C5.78269 15.9438 6.34657 16.3235 6.66902 16.884C6.94195 17.3803 7.40177 17.747 7.94632 17.9026C8.49087 18.0583 9.07503 17.99 9.56902 17.713C9.61544 17.207 9.84055 16.7341 10.204 16.379C7.99002 16.128 5.66202 15.272 5.66202 11.449C5.64973 10.4602 6.01691 9.5043 6.68802 8.778C6.38437 7.91731 6.42013 6.97325 6.78802 6.138C6.78802 6.138 7.62502 5.869 9.53002 7.159C11.1639 6.71101 12.8882 6.71101 14.522 7.159C16.428 5.868 17.264 6.138 17.264 6.138C17.6336 6.97286 17.6694 7.91757 17.364 8.778C18.0376 9.50423 18.4045 10.4626 18.388 11.453C18.388 15.286 16.058 16.128 13.836 16.375C14.3153 16.8651 14.5612 17.5373 14.511 18.221C14.511 19.555 14.499 20.631 14.499 20.958C14.499 21.225 14.677 21.535 15.186 21.437C19.8265 19.8884 22.6591 15.203 21.874 10.3743C21.089 5.54565 16.9181 1.99888 12.026 2Z">
-                        </path>
-                    </svg>
-                </a>
-            </div>
         </div>
+      </div>
+      <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
+        <div className="md:grid md:grid-cols-2 md:gap-8">
+          <div>
+            <h3 className="text-sm font-semibold leading-6 text-gray-900">Social Society</h3>
+            <ul role="list" className="mt-6 space-y-4">
+              <li>
+                <a href="#" className="text-sm leading-6 text-gray-600 hover:text-gray-900">Home</a>
+              </li>
+              <li>
+                <a href="#" className="text-sm leading-6 text-gray-600 hover:text-gray-900">Our Goal</a>
+              </li>
+              <li>
+                <a href="#" className="text-sm leading-6 text-gray-600 hover:text-gray-900">Services</a>
+              </li>
+              <li>
+                <a href="#" className="text-sm leading-6 text-gray-600 hover:text-gray-900">Insights</a>
+              </li>
+            </ul>
+          </div>
+          <div className="mt-10 md:mt-0">
+            <h3 className="text-sm font-semibold leading-6 text-gray-900">About</h3>
+            <ul role="list" className="mt-6 space-y-4">
+              <li>
+                <a href="#" className="text-sm leading-6 text-gray-600 hover:text-gray-900">About us</a>
+              </li>
+              <li>
+                <a href="#" className="text-sm leading-6 text-gray-600 hover:text-gray-900">Privacy and policy</a>
+              </li>
+              <li>
+                <a href="#" className="text-sm leading-6 text-gray-600 hover:text-gray-900">Term of services</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="md:grid md:grid-cols-2 md:gap-8">
+          <div>
+            <h3 className="text-sm font-semibold leading-6 text-gray-900">Help</h3>
+            <ul role="list" className="mt-6 space-y-4">
+              <li>
+                <a href="#" className="text-sm leading-6 text-gray-600 hover:text-gray-900">Contact us</a>
+              </li>
+              <li>
+                <a href="#" className="text-sm leading-6 text-gray-600 hover:text-gray-900">Feedback</a>
+              </li>
+              <li>
+                <a href="#" className="text-sm leading-6 text-gray-600 hover:text-gray-900">FAQS</a>
+              </li>
+            </ul>
+          </div>
+          <div className="mt-10 md:mt-0">
+            <h3 className="text-sm font-semibold leading-6 text-gray-900">Connect with us </h3>
+            <ul role="list" className="mt-6 space-y-4">
+              <li>
+                <a href="#" className="text-sm leading-6 text-gray-600 hover:text-gray-900">Github</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
+    <div className="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24">
+      <p className="text-xs leading-5 text-gray-500">&copy; 2024 BKK Company, Inc. All rights reserved.</p>
+    </div>
+  </div>
 </footer>
-    )
-}
+    );
+};
 
 export default Footer;
