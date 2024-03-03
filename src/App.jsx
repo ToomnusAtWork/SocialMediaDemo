@@ -6,22 +6,20 @@ const App = () => {
 
   return (
       <BrowserRouter>
-      <div className='bg-gray-100'>
-        <Navbar/>
-        <Hero/>
-      </div>
-      <div className="bg-gray-200">
-        <Features />
-        <TechCard />
-        <Info />
-        <Graphic />
-        <Contribution />
-      </div>
-      <div className="footer-end">
-        <Footer />
-      </div>
-      
-     
+        <div className='bg-white'>
+          <Navbar/>
+          <Hero/>
+        </div>
+        <div className="bg-slate-400">
+          <Features />
+          <TechCard />
+          <Info />
+          <Graphic />
+          <Contribution />
+        </div>
+        <div className="footer-end">
+          <Footer />
+        </div>
       </BrowserRouter>
       
   );
