@@ -1,6 +1,8 @@
 const Minigame = () => {
     return(
-
+        <section id="minigame">
+            {/* GAME */}
+        </section>
     );
 };
 

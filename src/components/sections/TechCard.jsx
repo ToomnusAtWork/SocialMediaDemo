@@ -43,7 +43,7 @@ const TechCard = () => {
     ];
 
     return(
-        <div className="bg-purple-300">
+        <section className="bg-purple-300" id="tech">
             <motion.div className=" mx-auto grid max-w-2xl grid-cols-1 gap-x-14 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {items.map((item) => (
@@ -120,8 +120,7 @@ const TechCard = () => {
                 )}
             </AnimatePresence>
             </motion.div>
-        </div>
-        
+        </section>
     );
 };
 

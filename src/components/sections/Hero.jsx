@@ -3,7 +3,7 @@ import calender from "../../assets/graphic/schedule.png";
 
 const Hero = () => {
     return (
-        <section className='bg-white dark:bg-gray-900'>
+        <section className='bg-white dark:bg-gray-900' id="home">
             <header>
             <input type="checkbox" name="hbr" id="hbr" className="hbr peer" hidden aria-hidden="true"/>
             

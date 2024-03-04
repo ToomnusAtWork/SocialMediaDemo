@@ -12,9 +12,13 @@ const Contribution = () => {
 
 
     return(
+        // add hover effect and check for mouse add shadow
         <section>
             <div className="py-16">
                 <div className="mx-auto px-6 max-w-6xl text-gray-500">
+                <h2>Strengths and Limitations of systems</h2>
+                <h2>What make our system different</h2>
+                {/* Pink text */}
                     <div className="relative">
                         <div className="relative z-10 grid gap-3 grid-cols-6">
                             <div className="col-span-full lg:col-span-2 overflow-hidden flex relative p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900">
@@ -80,7 +84,7 @@ const Contribution = () => {
                                         </svg>
                                     </div>
                                     <div className="mt-14 text-center relative z-10 space-y-2">
-                                        <h2 className="text-lg font-medium text-gray-800 transition group-hover:text-purple-950 dark:text-white">Faster than light</h2>
+                                        <h2 className="text-lg font-medium text-gray-800 transition group-hover:text-purple-950 dark:text-white">Fetch the data more quickly</h2>
                                         <p className="dark:text-gray-300 text-gray-700">Provident fugit vero voluptate. magnam magni doloribus dolores voluptates inventore nisi.</p>
                                     </div>
                                 </div>
