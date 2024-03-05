@@ -16,8 +16,8 @@ const Contribution = () => {
         <section>
             <div className="py-16">
                 <div className="mx-auto px-6 max-w-6xl text-gray-500">
-                <h2>Strengths and Limitations of systems</h2>
-                <h2>What make our system different</h2>
+                <p className="text-base font-semibold leading-7 text-rose-600">Strengths and Limitations of systems</p>
+                <h2 className="mb-6 mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">What make our system different</h2>
                 {/* Pink text */}
                     <div className="relative">
                         <div className="relative z-10 grid gap-3 grid-cols-6">

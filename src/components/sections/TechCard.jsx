@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from 'framer-motion';
 import { lara, meili, vueLogo, viteLogo, SqlLogo } from '../../assets/graphic/techlogo';
+import frameworking from '../../assets/vectors/framework.svg';
 
 const TechCard = () => {
     const [selectedId, setSelectedId] = useState();
@@ -42,9 +43,18 @@ const TechCard = () => {
         },
     ];
 
+    const features = [
+        { name: 'Origin', description: 'Designed by Good Goods, Inc.' },
+        { name: 'Material', description: 'Solid walnut base with rare earth magnets and powder coated steel card cover' },
+        { name: 'Dimensions', description: '6.25" x 3.55" x 1.15"' },
+        { name: 'Finish', description: 'Hand sanded and finished with natural oil' },
+        { name: 'Includes', description: 'Wood card tray and 3 refill packs' },
+        { name: 'Considerations', description: 'Made from natural materials. Grain and color vary with each item.' },
+      ]
+
     return(
-        <section className="bg-purple-300" id="tech">
-            <motion.div className=" mx-auto grid max-w-2xl grid-cols-1 gap-x-14 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+        <section className="bg-slate-50" id="tech">
+            <motion.div className=" mx-auto grid max-w-2xl grid-cols-1 gap-x-14 gap-y-10 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {items.map((item) => (
                     <motion.div 
@@ -66,12 +76,14 @@ const TechCard = () => {
                 ))}
             </div>
             <div>
-                <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Feature Framework Specification</h2>
+                <p className="text-base font-semibold leading-7 text-blue-600">Share your stats with the team</p>
+                <h2 className="text-3xl mt-2 font-bold tracking-tight text-gray-900 sm:text-4xl">Feature Framework Specification</h2>
                 <p className="mt-6 text-gray-500">These web development frameworks speed up application development, reduce errors, simplify 
                 debugging and increase reliability. Taken them together, the factors can significantly reduce overall development costs.
                 The Model layer is concerned with the back-end business logic and data. The View layer focuses on the user interface and 
                 facilitating interactivity. The Controller layer acts as an interface between the model and view layers, processing the 
                 requests between them.</p>
+                <p className="mt-6 text-black">We carefully selected these frameworks based on their exceptional usage features. When they work together, they create something truly remarkable.</p>
             </div>
             <AnimatePresence>
                 {selectedId && (
@@ -119,7 +131,21 @@ const TechCard = () => {
                 </motion.div>
                 )}
             </AnimatePresence>
+            <div className="">
+                <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
+                {features.map((feature) => (
+                    <div key={feature.name} className="border-t border-gray-200 pt-4">
+                    <dt className="font-medium text-gray-900">{feature.name}</dt>
+                    <dd className="mt-2 text-sm text-gray-500">{feature.description}</dd>
+                    </div>
+                ))}
+                </dl>
+            </div>
+            <div className="">
+                <img src={frameworking} />
+            </div>
             </motion.div>
+            
         </section>
     );
 };

@@ -11,14 +11,14 @@ const Graphic = () => {
       labels: ['Engineer', 'Marketing', 'Human Resource', 'Adminstrative', 'Customer Services'], 
       datasets: [
         {
-            label: 'Dataset 1',
-            data: [10, 12, 36, 8, 4],
+            label: 'SysData1',
+            data: [17, 12, 36, 22, 9],
             backgroundColor: [
-              "rgba(75,192,192,1)",
-              "#ecf0f1",
-              "#50AF95",
-              "#f3ba2f",
-              "#2a71d0"
+              "rgba(255, 99, 132, 0.5)",
+              "rgba(75, 192, 192, 0.5)",
+              "rgba(255, 205, 86, 0.5)",
+              "rgba(54, 162, 235, 0.5)",
+              "rgba(112, 39, 195, 0.5)"
             ]
           }
     ]

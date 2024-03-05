@@ -48,7 +48,7 @@ const Navbar = () => {
 
 
     return (
-        <nav className={ `fixed z-20 w-screen  bg-white/80 dark:bg-gray-900/80 backdrop-blur navbar shadow-md shadow-gray-600/5 peer-checked:navbar-active md:relative md:bg-transparent dark:shadow-none ${
+        <nav className={ `fixed z-20 w-screen  bg-white dark:bg-gray-900 backdrop-blur border-white/50 dark:border-gray-900/50  border-b-2 navbar shadow-md shadow-gray-600/5 peer-checked:navbar-active md:relative md:bg-transparent dark:shadow-none ${
             scrolled ? "bg-primary" : "bg-transparent"
           }` } 
         >

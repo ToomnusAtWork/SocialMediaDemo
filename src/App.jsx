@@ -11,7 +11,7 @@ const App = () => {
           <Hero/>
         </div>
         <div className="bg-slate-400">
-          <Features />
+          {/* <Features /> */}
           <TechCard />
           <Info />
           <Graphic />

@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-16 lg:px-8 lg:pt-18">
             <div className="xl:grid xl:grid-cols-3 xl:gap-8">
             <div className="space-y-8">
-                <img className="h-20" src="https://aaah0mnbncqtinas.public.blob.vercel-storage.com/FX5ATkass4-no-background-VmcZHSX7xE4ng29ATNphGUdb388fxH.png" alt="Company name" />
+                <img className="h-20 rounded-full" src={ logo } alt="Company name" />
                 <p className="text-sm leading-6 text-gray-600">Knowing your teammates as people rather than as job roles fosters.</p>
                 <div className="flex space-x-6">
                 
