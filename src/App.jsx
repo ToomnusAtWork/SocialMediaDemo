@@ -10,7 +10,7 @@ const App = () => {
           <Navbar/>
           <Hero/>
         </div>
-        <div className="bg-slate-400">
+        <div className="bg-slate-200">
           {/* <Features /> */}
           <TechCard />
           <Info />

@@ -11,7 +11,7 @@ const Graphic = () => {
       labels: ['Engineer', 'Marketing', 'Human Resource', 'Adminstrative', 'Customer Services'], 
       datasets: [
         {
-            label: 'SysData1',
+            label: 'Data1',
             data: [17, 12, 36, 22, 9],
             backgroundColor: [
               "rgba(255, 99, 132, 0.5)",

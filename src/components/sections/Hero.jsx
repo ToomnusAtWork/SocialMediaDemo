@@ -10,7 +10,7 @@ const Hero = () => {
             
             </header>
 
-            <div className="bg-white relative pt-40 pb-20 lg:pt-44 dark:bg-gray-900">
+            <div className="bg-white relative pt-40 pb-20 lg:pt-40 dark:bg-gray-900">
         <div className="relative xl:container m-auto px-6 md:px-12 lg:px-6">
             <h1 className="sm:mx-auto sm:w-10/12 md:w-2/3 font-black text-blue-900 text-4xl text-center sm:text-5xl md:text-6xl lg:w-auto lg:text-left xl:text-7xl dark:text-white font-K2D">
                 Build a culture of trust and <br className="lg:block hidden"/> 
@@ -18,7 +18,7 @@ const Hero = () => {
             </h1>
             <div className="lg:flex">
                 <div className="relative mt-8 md:mt-16 space-y-8 sm:w-10/12 md:w-2/3 lg:ml-0 sm:mx-auto text-center lg:text-left lg:mr-auto lg:w-7/12">
-                    <p className="sm:text-lg text-gray-700 dark:text-gray-300 lg:w-11/12">
+                    <p className="sm:text-lg text-gray-700 dark:text-zinc-50 lg:w-10/12 relative z-10">
                         SocialSociety can improve team collaboration, productivity, and company culture by facilitating cross-departmental learning, enhancing creativity, and streamlining work efficiency.
                     </p>
                     <span className="block font-semibold text-gray-500 dark:text-gray-400">Discover the ultimate tools that will help you build a strong organizational culture.</span>
