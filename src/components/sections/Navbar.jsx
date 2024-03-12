@@ -26,10 +26,6 @@ const Navbar = () => {
           id: "services",
           title: "Services",
         },
-        {
-          id: "minigame",
-          title: "Minigame",
-        }
     ];
 
     useEffect(() => {

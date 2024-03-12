@@ -1,4 +1,4 @@
-import { Footer, Hero, Navbar, Features, Info, TechCard, Contribution, Graphic } from './components/sections'
+import { Footer, Hero, Navbar, Info, TechCard, Contribution, Graphic } from './components/sections'
 import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 
@@ -10,8 +10,7 @@ const App = () => {
           <Navbar/>
           <Hero/>
         </div>
-        <div className="bg-slate-200">
-          {/* <Features /> */}
+        <div className="bg-slate-50">
           <TechCard />
           <Info />
           <Graphic />

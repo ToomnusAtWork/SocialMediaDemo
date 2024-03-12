@@ -84,20 +84,20 @@ const Graphic = () => {
         </div>
         <dl className="mt-10 grid grid-cols-2 gap-8 border-t border-gray-900/10 pt-10 sm:grid-cols-4">
           <div>
-            <dt className="text-sm font-semibold leading-6 text-gray-600">Founded</dt>
-            <dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-gray-900">end of 2023</dd>
+            <dt className="text-sm font-semibold leading-6 text-gray-600">Collected</dt>
+            <dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-gray-900">End of 2023</dd>
           </div>
           <div>
             <dt className="text-sm font-semibold leading-6 text-gray-600">Employees</dt>
-            <dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-gray-900">uncounted</dd>
+            <dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-gray-900">96</dd>
           </div>
           <div>
-            <dt className="text-sm font-semibold leading-6 text-gray-600">Countries</dt>
-            <dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-gray-900">2</dd>
+            <dt className="text-sm font-semibold leading-6 text-gray-600">Departments</dt>
+            <dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-gray-900">5</dd>
           </div>
           <div>
-            <dt className="text-sm font-semibold leading-6 text-gray-600">Raised</dt>
-            <dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-gray-900">$1.5K</dd>
+            <dt className="text-sm font-semibold leading-6 text-gray-600">Q&A</dt>
+            <dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-gray-900">548 replies</dd>
           </div>
         </dl>
 

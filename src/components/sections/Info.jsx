@@ -10,7 +10,7 @@ const Info = () => {
             <div className="lg:max-w-lg">
               <h2 className="text-base font-semibold leading-7 text-green-600">Bring more connectivity</h2>
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Improve your company workflow.</p>
-              <p className="mt-6 text-lg leading-8 text-gray-600">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p>
+              <p className="mt-6 text-lg leading-8 text-gray-600">The right tools can transform teamwork by improving communication, streamlining project management, and fostering collaboration among team members, regardless of their physical location.</p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                 <div className="relative pl-9">
                   <dt className="inline font-semibold text-gray-900">

@@ -85,7 +85,7 @@ const Contribution = () => {
                                     </div>
                                     <div className="mt-14 text-center relative z-10 space-y-2">
                                         <h2 className="text-lg font-medium text-gray-800 transition group-hover:text-purple-950 dark:text-white">Fetch the data more quickly</h2>
-                                        <p className="dark:text-gray-300 text-gray-700">Provident fugit vero voluptate. magnam magni doloribus dolores voluptates inventore nisi.</p>
+                                        <p className="dark:text-gray-300 text-gray-700">Optimize your queries to fetch only the necessary data. Avoid fetching unnecessary fields or rows to reduce the data transfer time.</p>
                                     </div>
                                 </div>
                             </div>
@@ -134,7 +134,7 @@ const Contribution = () => {
                                             </div>
                                         <div className="space-y-2">
                                             <h2 className="text-lg font-medium text-gray-800 transition group-hover:text-purple-950 dark:text-white">Keep your team connect</h2>
-                                            <p className="dark:text-gray-300 text-gray-700">Voluptate. magnam magni doloribus dolores voluptates a sapiente inventore nisi.</p>
+                                            <p className="dark:text-gray-300 text-gray-700">Establish open communication channels where team members can freely express their ideas, concerns, and feedback.</p>
                                         </div>
                                     </div>
                                     <div className="mt-6 relative sm:-mr-[--card-padding] sm:-my-8 before:absolute before:w-px before:inset-0 before:mx-auto before:bg-gray-200 dark:before:bg-gray-800">

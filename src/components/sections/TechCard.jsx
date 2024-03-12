@@ -44,12 +44,12 @@ const TechCard = () => {
     ];
 
     const features = [
-        { name: 'Origin', description: 'Designed by Good Goods, Inc.' },
-        { name: 'Material', description: 'Solid walnut base with rare earth magnets and powder coated steel card cover' },
-        { name: 'Dimensions', description: '6.25" x 3.55" x 1.15"' },
-        { name: 'Finish', description: 'Hand sanded and finished with natural oil' },
-        { name: 'Includes', description: 'Wood card tray and 3 refill packs' },
-        { name: 'Considerations', description: 'Made from natural materials. Grain and color vary with each item.' },
+        { name: 'Origin', description: 'Designed by Peranut Toomnus.' },
+        { name: 'Material Type', description: 'Laravel application with authorization and Eloquent tools for APIs fetching request.' },
+        { name: 'File Size', description: 'less than 325MB' },
+        { name: 'Finish', description: 'Handed on and review by 07/10/2023.' },
+        { name: 'Includes', description: 'Meilisearch Data search Engine' },
+        // { name: 'Considerations', description: 'Made from natural materials. Grain and color vary with each item.' },
       ]
 
     return(
